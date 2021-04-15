@@ -1,0 +1,55 @@
+/* CODE DEALING WITH THE CHARACTER BIOS NAME LIST! */
+
+.char-namelist {
+    display: flex;
+    margin: 5px;
+    padding: 3px;
+    border-top: 2px dotted $darkRed;
+    border-bottom: 2px dotted $darkRed;
+}
+
+.char-col-left {
+    display: inline-block;
+    border-right: 3px solid $lightRed;
+    width: 40%;
+}
+
+.char-col-right {
+    display: inline-block;
+    border-left: 3px solid $lightRed;
+    width: 40%;
+}
+
+    p.char-name {
+        font-size: 1em;
+        font-family: map-get($fonts, funkStyle);
+        text-align: right;
+        text-transform: uppercase;
+        height: 35px;
+        vertical-align: middle;
+        color: $darkRed;
+    }
+
+    p.char-desc {
+        font-size: 1em;
+        font-family: map-get($fonts, primary);
+        text-align: left;
+        vertical-align: middle;
+        height: 35px;
+        color: black;
+    }
+
+    p.tiny-text {
+        font-size: 0.3em;
+        font-family: map-get($fonts, primary);
+    }
+
+/* CHARACTER BIO PAGE STYLING */
+
+h3.article-head {
+font-size: 2em;
+font-family: map-get($fonts, headlines);
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 5px;
+}

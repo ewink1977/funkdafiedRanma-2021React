@@ -1,0 +1,30 @@
+// Document Fonts
+$fonts: (
+    "primary": #{'Roboto', sans-serif},
+    "headlines": #{'Bebas Neue', cursive},
+    "funkStyle": #{'Bowlby One', cursive},
+);
+
+// Document Colors
+$lightRed: #FF0448;
+$darkRed: #d00038;
+$bgColor: #f6f6f6;
+$wrapperBG: #fff;
+
+@mixin media-small {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin media-med {
+    @media only screen and (min-width: 481px) {
+        @content;
+    }
+}
+
+@mixin media-large {
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}

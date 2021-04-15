@@ -1,0 +1,47 @@
+/* MOBILE FRIENDLY CSS DOWN HERE! */
+
+h2.mob-title-upper {
+    font-size: 1.5em;
+    font-family: map-get($fonts, headlines);
+    margin-left: 10%;
+    margin-bottom: -20px;
+}
+
+h2.mob-title-lower {
+    font-size: 1.5em;
+    font-family: map-get($fonts, headlines);
+    margin-left: 30%;
+    margin-top: -20px;
+}
+
+h1.mob-head {
+    font-family: map-get($fonts, funkStyle);
+    color: $darkRed;
+    text-shadow: 1px 1px 3px lightslategray;
+    margin-left: 5%;
+}
+
+.mobile-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    & a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.mob-nav-bar {
+    display: inline;
+    font-family: map-get($fonts, headlines);
+    font-size: 0.8em;
+    background-color: $darkRed;
+    padding: 0.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px lightslategray;
+}

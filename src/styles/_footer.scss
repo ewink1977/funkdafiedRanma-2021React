@@ -1,0 +1,29 @@
+footer {
+    min-height: 25px;
+    width: 100%;
+    background-color: $lightRed;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 0px;
+}
+
+    footer p.copyright {
+        padding-top: 2px;
+        font-size: 0.5em;
+        font-weight: bold;
+        font-family: map-get($fonts, primary);
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    footer a.redbg {
+        font-family: map-get($fonts, primary);
+        color: whitesmoke;
+        font-size: 0.5rem;
+
+        &:hover {
+            color: darkblue;
+            text-decoration: underline;
+        }
+    }

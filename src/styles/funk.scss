@@ -1,0 +1,105 @@
+@import 'resets';
+@import 'vars';
+@import 'mobile';
+@import 'character';
+@import 'footer';
+@import 'responsive';
+
+a {
+    text-decoration: none;
+    color: $lightRed;
+
+    &:hover {
+        text-decoration: none;
+        color: $darkRed;
+    }
+}
+
+body {
+    background-color: $bgColor;
+    font-family: map-get($fonts, primary);
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 5px auto;
+    background-color:$wrapperBG;
+    box-shadow: 5px 5px 5px lightslategray;
+    border-radius: 15px;
+}
+
+.display {
+    min-height: 1vh;
+
+    nav {
+        display: inline-block;
+        padding-left: 10px;
+        width: 200px;
+
+        img.nav-img {
+            margin-top: -5px;
+        }
+    }
+}
+
+.content {
+    display: inline-block;
+    width: 100%;
+
+    img.header-img {
+        margin: 0 auto;
+    }
+
+    .seperator {
+        min-height: 25px;
+        background-color: $lightRed;
+        padding: 0 1em;
+
+        & p.sep {
+            font-family: map-get($fonts, primary);
+            font-weight: bold;
+            font-size: 0.7em;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+    }
+
+    section {
+        padding: 5px;
+
+        & h2.subhead {
+            font-family: map-get($fonts, funkStyle);
+            font-size: 2.5em;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px lightslategray;
+            color: $darkRed;
+        }
+
+        & img.left {
+            width: 200px;
+            margin-left: 10px;
+            box-shadow: 2px 2px 5px lightslategray;
+        }
+
+        & p {
+            display: block;
+            font-family: map-get($fonts, primary);
+            text-align: justify;
+            padding: 5px 5px 5px 10px;
+        }
+
+        hr.sep-hr {
+            width: 50%;
+            margin: 5px auto;
+            border-top: 1px dotted $darkRed;
+        }
+    }
+}
+
+.col {
+    padding: 1%;
+}
+
