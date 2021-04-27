@@ -28,19 +28,23 @@
         height: 35px;
         vertical-align: middle;
         color: $darkRed;
+        padding-right: 0.3em;
+        margin: 10px 0;
     }
 
     p.char-desc {
-        font-size: 1em;
+        font-size: 0.9em;
         font-family: map-get($fonts, primary);
         text-align: left;
         vertical-align: middle;
         height: 35px;
         color: black;
+        padding-left: 0.3em;
+        margin: 10px 0;
     }
 
     p.tiny-text {
-        font-size: 0.3em;
+        font-size: 0.5em;
         font-family: map-get($fonts, primary);
     }
 

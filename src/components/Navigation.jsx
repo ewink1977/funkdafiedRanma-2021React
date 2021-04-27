@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import topImage from '../assets/img/nav/ranleft.png'
 import characterBios from '../assets/img/nav/charbios.jpg'
 import engagementChart from '../assets/img/nav/engagec.jpg'
@@ -10,8 +12,8 @@ import eWink from '../assets/img/nav/ewinkr.jpg'
 const Navigation = () => {
     return (
         <nav>
-            <a href='index.html'><img src={topImage} alt='Ranma ½' className='nav-top' /></a>
-            <a href='characters.html'><img src={characterBios} alt='Character Bios' className='nav-img' /></a>
+            <Link to="/"><img src={topImage} alt='Ranma ½' className='nav-top' /></Link>
+            <Link to="/characters/"><img src={characterBios} alt='Character Bios' className='nav-img' /></Link>
             <a href='engagementchart.html'><img src={engagementChart} alt='Engagement Chart' className='nav-img' /></a>
             <a href='information.html'><img src={information} alt='Information' className='nav-img' /></a>
             <a href='music.html'><img src={music} alt='Music' className='nav-img' /></a> {/* eslint-disable-next-line */}

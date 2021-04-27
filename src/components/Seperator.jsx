@@ -1,10 +1,8 @@
-import Quote from './Quote'
-
-const Seperator = () => {
+const Seperator = ({ quote }) => {
 
     return (
         <div className='seperator'>
-            <Quote />
+            <p className="sep">{ quote }</p>
         </div>
     )
 }
