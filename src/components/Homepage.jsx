@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Seperator from "./Seperator"
 import FrontPageImg from "../assets/img/frontpage-img.jpg"
 
@@ -23,7 +24,7 @@ const Homepage = () => {
                             Drowned Girl, and Genma fell into Spring of Drowned Panda. Now when splashed with cold water, they turn into a girl and panda, respectively. 
                             Hot water reverses this effect.</p>
                         <p>Yada, yada, yada, welcome to Ranma ½. If you need more explanation than this, let me know. I'll talk to you about it. Better yet, check 
-                            out Ranma ½ in 10 Minutes.</p>
+                            out <Link to='/10minutes/'>Ranma ½ in 10 Minutes</Link>.</p>
                         <hr className="sep-hr" />
                         <h3 className="article-head">Information ½</h3>
                         <p>This website is a fun little project I started back in 1996 or so as <em>ewink's groovy Ranma ½ and Sailor Moon Page</em>. Eventually, I 

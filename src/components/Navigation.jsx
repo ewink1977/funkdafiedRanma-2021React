@@ -19,7 +19,7 @@ const Navigation = () => {
             <a href='music.html'><img src={music} alt='Music' className='nav-img' /></a> {/* eslint-disable-next-line */}
             <a href='imagegallery.html'><img src={imageGallery} alt='Image Gallery' className='nav-img' /></a>
             <a href='fanfics.html'><img src={fanFics} alt='Fan Fiction' className='nav-img' /></a>
-            <a href='ewink.html'><img src={eWink} alt='ewink! That is me.' className='nav-img' /></a>
+            <Link to="/ewink/"><img src={eWink} alt='ewink! That is me.' className='nav-img' /></Link>
         </nav>
     )
 }

@@ -9,6 +9,8 @@ import Characters from './components/Characters';
 import RanmaBoyType from './components/CharComps/RanmaBoyType';
 import RanmaGirlType from './components/CharComps/RanmaGirlType';
 import Akane from './components/CharComps/Akane';
+import TenMinutes from './components/MiscComps/TenMinutes';
+import Ewink from './components/MiscComps/Ewink';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
             <Header />
               <Switch>
                 <Route exact path='/' component={ Homepage } />
+                <Route path='/ewink/' component={ Ewink } />
                 <Route path='/privacy/' component={ Privacy } />
+                <Route path='/10minutes/' component={ TenMinutes } />
                 <Route exact path='/characters/' component={ Characters } />
                 <Route path='/characters/ranma-boy/' component={ RanmaBoyType } />
                 <Route path='/characters/ranma-girl/' component={ RanmaGirlType } />
