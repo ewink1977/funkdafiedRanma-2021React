@@ -5,14 +5,17 @@ import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Footer from './components/Footer';
 import Privacy from './components/Privacy';
+import TenMinutes from './components/MiscComps/TenMinutes';
+import Ewink from './components/MiscComps/Ewink';
 import Characters from './components/Characters';
 import RanmaBoyType from './components/CharComps/RanmaBoyType';
 import RanmaGirlType from './components/CharComps/RanmaGirlType';
 import Akane from './components/CharComps/Akane';
-import TenMinutes from './components/MiscComps/TenMinutes';
-import Ewink from './components/MiscComps/Ewink';
 import Genma from './components/CharComps/Genma';
 import Soun from './components/CharComps/Soun';
+import Ryouga from './components/CharComps/Ryouga';
+import Shampoo from './components/CharComps/Shampoo';
+import Tatewaki from './components/CharComps/Tatewaki';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
                 <Route path='/characters/akane/' component={ Akane } />
                 <Route path='/characters/genma/' component={ Genma } />
                 <Route path='/characters/soun/' component={ Soun } />
+                <Route path='/characters/ryouga/' component={ Ryouga } />
+                <Route path='/characters/shampoo/' component={ Shampoo } />
+                <Route path='/characters/kuno/' component={ Tatewaki } />
               </Switch>
           </div>
         </div>
