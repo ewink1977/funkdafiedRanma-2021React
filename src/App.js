@@ -16,6 +16,11 @@ import Soun from './components/CharComps/Soun';
 import Ryouga from './components/CharComps/Ryouga';
 import Shampoo from './components/CharComps/Shampoo';
 import Tatewaki from './components/CharComps/Tatewaki';
+import Nabiki from './components/CharComps/Nabiki';
+import Kasumi from './components/CharComps/Kasumi';
+import Happosai from './components/CharComps/Happosai';
+import Cologne from './components/CharComps/Cologne';
+import Kodachi from './components/CharComps/Kodachi';
 
 function App() {
   return (
@@ -39,6 +44,11 @@ function App() {
                 <Route path='/characters/ryouga/' component={ Ryouga } />
                 <Route path='/characters/shampoo/' component={ Shampoo } />
                 <Route path='/characters/kuno/' component={ Tatewaki } />
+                <Route path='/characters/nabiki/' component={ Nabiki } />
+                <Route path='/characters/kasumi/' component={ Kasumi } />
+                <Route path='/characters/happosai/' component={ Happosai } />
+                <Route path='/characters/cologne/' component={ Cologne } />
+                <Route path='/characters/kodachi/' component={ Kodachi } />
               </Switch>
           </div>
         </div>
