@@ -1,10 +1,11 @@
-import headerImage from '../assets/img/titlebanner.jpg'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <header>
             {/* TITLE HEADER FOR DISPLAY ON LARGE SCREENS */}
-            <img src={headerImage} alt="ewink's FUNKDAFIED Ranma ½ website!" className='header-img' />
+            <img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/titlebanner.jpg" alt="ewink's FUNKDAFIED Ranma ½ website!" 
+            title="ewink's FUNKDAFIED Ranma ½ website!" className='header-img' />
             <div className='mobilehead'>
                 {/* TITLE HEADER AND NAVIGATION FOR SMALL SCREENS / MOBILE */} 
                 <div className='mobile-title'>
@@ -13,14 +14,14 @@ const Header = () => {
                     <h2 className='mob-title-lower'>Ranma ½ Website</h2>
                 </div>
                 <div className='mobile-nav'>
-                    <a href='index.html' className='mob-nav-bar'>HOME</a>
-                    <a href='characters.html' className='mob-nav-bar'>CHARACTERS</a>
+                    <Link to="/" className='mob-nav-bar'>HOME</Link>
+                    <Link to="/characters/" className='mob-nav-bar'>CHARACTERS</Link>
                     <a href='engagementchart.html' className='mob-nav-bar'>ENGAGEMENTS</a>
                     <a href='information.html' className='mob-nav-bar'>INFORMATION</a>
                     <a href='music.html' className='mob-nav-bar'>MUSIC</a>
                     <a href='imagegallery.html' className='mob-nav-bar'>IMAGE GALLERY</a>
                     <a href='fanfics.html' className='mob-nav-bar'>FAN FICS</a>
-                    <a href='ewink.html' className='mob-nav-bar'>EWINK</a>
+                    <Link to="/ewink/" className='mob-nav-bar'>EWINK</Link>
                 </div>
             </div>
         </header>
