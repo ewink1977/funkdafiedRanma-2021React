@@ -21,6 +21,8 @@ import Kasumi from './components/CharComps/Kasumi';
 import Happosai from './components/CharComps/Happosai';
 import Cologne from './components/CharComps/Cologne';
 import Kodachi from './components/CharComps/Kodachi';
+import Ukyou from './components/CharComps/Ukyou';
+import MiscCharacters from './components/CharComps/MiscCharacters';
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
                 <Route path='/characters/happosai/' component={ Happosai } />
                 <Route path='/characters/cologne/' component={ Cologne } />
                 <Route path='/characters/kodachi/' component={ Kodachi } />
+                <Route path='/characters/ukyou/' component={ Ukyou } />
+                <Route path='/characters/misc/' component={ MiscCharacters } />
               </Switch>
           </div>
         </div>

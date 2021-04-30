@@ -85,6 +85,15 @@ body {
             color: $darkRed;
         }
 
+        & h3.misc-char-head {
+            font-family: map-get($fonts, funkStyle);
+            font-size: 1.5em;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px lightslategray;
+            color: $darkRed;
+        }
+
         & img.left {
             width: 200px;
             margin-left: 10px;

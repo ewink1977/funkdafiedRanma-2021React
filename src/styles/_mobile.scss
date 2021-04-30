@@ -32,6 +32,11 @@ h1.mob-head {
         text-decoration: none;
         color: black;
     }
+
+    & a:hover {
+        text-decoration: dotted;
+        color: whitesmoke;
+    }
 }
 
 .mob-nav-bar {
