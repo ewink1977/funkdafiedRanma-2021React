@@ -11,11 +11,13 @@ const Homepage = () => {
                     <div className="col">
                         <img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/frontpage-img.jpg" alt="Ranma and the rest of the gang!" 
                         title="Ranma and the rest of the gang!" className="left mob-sizing" />
+                        <img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/gorimage4.jpg" alt="RanChan in the lead!" 
+                        title="RanChan in the lead!" className="left mob-sizing" />
                     </div>
                     <div className="col">
                         <h3 className="article-head">Ranma ½ in 60 seconds!</h3>
-                        <p>Many years ago a man named <a href="genma.html">Genma Saotome</a> had relations with his wife. They had a son. Across town, a man named 
-                        <a href="soun.html"> Soun Tendo</a> had relations with his wife. They had a daughter. If you need further information on this, call your 
+                        <p>Many years ago a man named <Link to="/characters/genma/">Genma Saotome</Link> had relations with his wife. They had a son. Across town, a man named 
+                        <Link to="/characters/soun/"> Soun Tendo</Link> had relations with his wife. They had a daughter. If you need further information on this, call your 
                         parents or do a Google search for ‘rule 34’.</p>
                         <p>Don’t actually do that search.</p>
                         <p>Anyway, after all of this getting it on, Genma and Soun decided that their children would marry each other in order to continue the 

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Seperator from '../Seperator'
 
 const Shampoo = () => {
@@ -27,7 +28,7 @@ const Shampoo = () => {
                         she was still hell bent on killing girl Ranma. Ranma finally told her his secret, only with a twist. Ranma told Shampoo that his female form was his real form.</p>
                         <p>Torn and very, very upset, Shampoo returned to China. Because she failed to kill Ranma and failed to marry Ranma (OUCH! Brain freeze!) her grandmother took 
                         her to Jusenkyo to train. Well, I suppose you know where this is going. Yup, Shampoo fell into one of the springs. Spring of drowned cat to be exact.</p>
-                        <p>Now, Shampoo mailed herself to Ranma in her cat form as a present. A cute little twist is that Ranma is afraid of cats. While she was a cat she learned that 
+                        <p>Now, Shampoo mailed herself to Ranma in her cat form as a present. A cute little twist is that <Link to='/ailurophobia/'>Ranma is afraid of cats</Link>. While she was a cat she learned that 
                         Ranma's true form was male, so now she's all over Ranma like a fly at a poop convention. I don't have anything to top that icky analogy, so let's end this 
                         here.</p>
                     </div>

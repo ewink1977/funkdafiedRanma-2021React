@@ -1,5 +1,5 @@
 import React from 'react'
-import Seperator from './Seperator'
+import Seperator from '../Seperator'
 
 const Privacy = () => {
     return (

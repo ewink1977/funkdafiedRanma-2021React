@@ -4,9 +4,11 @@ import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Footer from './components/Footer';
-import Privacy from './components/Privacy';
+import Privacy from './components/MiscComps/Privacy';
 import TenMinutes from './components/MiscComps/TenMinutes';
 import Ewink from './components/MiscComps/Ewink';
+import Ailurophobia from './components/MiscComps/Ailurophobia';
+import Information from './components/MiscComps/Information';
 import Characters from './components/Characters';
 import RanmaBoyType from './components/CharComps/RanmaBoyType';
 import RanmaGirlType from './components/CharComps/RanmaGirlType';
@@ -37,6 +39,8 @@ function App() {
                 <Route path='/ewink/' component={ Ewink } />
                 <Route path='/privacy/' component={ Privacy } />
                 <Route path='/10minutes/' component={ TenMinutes } />
+                <Route path='/ailurophobia/' component={ Ailurophobia } />
+                <Route path='/information/' component={ Information } />
                 <Route exact path='/characters/' component={ Characters } />
                 <Route path='/characters/ranma-boy/' component={ RanmaBoyType } />
                 <Route path='/characters/ranma-girl/' component={ RanmaGirlType } />
