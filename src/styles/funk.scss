@@ -4,6 +4,7 @@
 @import 'character';
 @import 'footer';
 @import 'responsive';
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 a {
     text-decoration: none;
@@ -119,3 +120,7 @@ body {
     padding: 1%;
 }
 
+.image-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+}

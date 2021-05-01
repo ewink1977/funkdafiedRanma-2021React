@@ -13,8 +13,8 @@ const Navigation = () => {
             alt='Information' title="Information" className='nav-img' /></Link>
             <a href='music.html'><img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/nav/music.jpg" alt='Music' 
             title="Music" className='nav-img' /></a> {/* eslint-disable-next-line */}
-            <a href='imagegallery.html'><img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/nav/imagegal.jpg" 
-            alt='Image Gallery' title="Image Gallery" className='nav-img' /></a>
+            <Link to='/imagegal/'><img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/nav/imagegal.jpg" 
+            alt='Image Gallery' title="Image Gallery" className='nav-img' /></Link>
             <a href='fanfics.html'><img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/nav/fanfics.jpg" 
             alt='Fan Fiction' title="Fan Fiction" className='nav-img' /></a>
             <Link to="/ewink/"><img src="https://douglasave-static.sfo3.digitaloceanspaces.com/funkdafied-static/img/nav/ewinkr.jpg" 

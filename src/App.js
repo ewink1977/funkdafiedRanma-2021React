@@ -25,6 +25,7 @@ import Cologne from './components/CharComps/Cologne';
 import Kodachi from './components/CharComps/Kodachi';
 import Ukyou from './components/CharComps/Ukyou';
 import MiscCharacters from './components/CharComps/MiscCharacters';
+import FunkdafiedImageGallery from './components/MiscComps/FunkdafiedImageGallery';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
                 <Route path='/10minutes/' component={ TenMinutes } />
                 <Route path='/ailurophobia/' component={ Ailurophobia } />
                 <Route path='/information/' component={ Information } />
+                <Route path='/imagegal/' component={ FunkdafiedImageGallery } />
                 <Route exact path='/characters/' component={ Characters } />
                 <Route path='/characters/ranma-boy/' component={ RanmaBoyType } />
                 <Route path='/characters/ranma-girl/' component={ RanmaGirlType } />

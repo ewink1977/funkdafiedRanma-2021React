@@ -19,7 +19,7 @@ const Header = () => {
                     <a href='engagementchart.html' className='mob-nav-bar'>ENGAGEMENTS</a>
                     <Link to="/information/" className='mob-nav-bar'>INFORMATION</Link>
                     <a href='music.html' className='mob-nav-bar'>MUSIC</a>
-                    <a href='imagegallery.html' className='mob-nav-bar'>IMAGE GALLERY</a>
+                    <Link to="/imagegal/" className='mob-nav-bar'>IMAGE GALLERY</Link>
                     <a href='fanfics.html' className='mob-nav-bar'>FAN FICS</a>
                     <Link to="/ewink/" className='mob-nav-bar'>EWINK</Link>
                 </div>
