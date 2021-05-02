@@ -9,6 +9,12 @@ import TenMinutes from './components/MiscComps/TenMinutes';
 import Ewink from './components/MiscComps/Ewink';
 import Ailurophobia from './components/MiscComps/Ailurophobia';
 import Information from './components/MiscComps/Information';
+import FunkdafiedImageGallery from './components/MiscComps/FunkdafiedImageGallery';
+import FanFiction from './components/MiscComps/FanFiction';
+import RanmaMeetsSailorMoon from './components/MiscComps/RanmaMeetsSailorMoon';
+import Music from './components/MiscComps/Music';
+import EngagementChart from './components/MiscComps/EngagementChart';
+import KimCounterpoint from './components/MiscComps/KimCounterpoint';
 import Characters from './components/Characters';
 import RanmaBoyType from './components/CharComps/RanmaBoyType';
 import RanmaGirlType from './components/CharComps/RanmaGirlType';
@@ -25,7 +31,6 @@ import Cologne from './components/CharComps/Cologne';
 import Kodachi from './components/CharComps/Kodachi';
 import Ukyou from './components/CharComps/Ukyou';
 import MiscCharacters from './components/CharComps/MiscCharacters';
-import FunkdafiedImageGallery from './components/MiscComps/FunkdafiedImageGallery';
 
 function App() {
   return (
@@ -43,6 +48,11 @@ function App() {
                 <Route path='/ailurophobia/' component={ Ailurophobia } />
                 <Route path='/information/' component={ Information } />
                 <Route path='/imagegal/' component={ FunkdafiedImageGallery } />
+                <Route exact path='/fanfics/' component={ FanFiction } />
+                <Route path='/fanfics/rmsm/' component={ RanmaMeetsSailorMoon } />
+                <Route path='/music/' component={ Music } />
+                <Route exact path='/engagementchart/' component={ EngagementChart } />
+                <Route path='/engagementchart/kim-counterpoint/' component={ KimCounterpoint } />
                 <Route exact path='/characters/' component={ Characters } />
                 <Route path='/characters/ranma-boy/' component={ RanmaBoyType } />
                 <Route path='/characters/ranma-girl/' component={ RanmaGirlType } />

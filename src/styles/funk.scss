@@ -4,6 +4,7 @@
 @import 'character';
 @import 'footer';
 @import 'responsive';
+@import 'engagement';
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 a {
@@ -97,7 +98,14 @@ body {
 
         & img.left {
             width: 200px;
-            margin-left: 10px;
+            box-shadow: 2px 2px 5px lightslategray;
+        }
+
+        & img.center-title {
+            max-width: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             box-shadow: 2px 2px 5px lightslategray;
         }
 
@@ -123,4 +131,11 @@ body {
 .image-gallery {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.aud-player {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

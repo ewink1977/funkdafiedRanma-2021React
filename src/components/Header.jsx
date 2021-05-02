@@ -16,11 +16,11 @@ const Header = () => {
                 <div className='mobile-nav'>
                     <Link to="/" className='mob-nav-bar'>HOME</Link>
                     <Link to="/characters/" className='mob-nav-bar'>CHARACTERS</Link>
-                    <a href='engagementchart.html' className='mob-nav-bar'>ENGAGEMENTS</a>
+                    <Link t0="/engagementchart/" className='mob-nav-bar'>ENGAGEMENTS</Link>
                     <Link to="/information/" className='mob-nav-bar'>INFORMATION</Link>
-                    <a href='music.html' className='mob-nav-bar'>MUSIC</a>
+                    <Link to="/music/" className='mob-nav-bar'>MUSIC</Link>
                     <Link to="/imagegal/" className='mob-nav-bar'>IMAGE GALLERY</Link>
-                    <a href='fanfics.html' className='mob-nav-bar'>FAN FICS</a>
+                    <Link to="/fanfics/" className='mob-nav-bar'>FAN FICS</Link>
                     <Link to="/ewink/" className='mob-nav-bar'>EWINK</Link>
                 </div>
             </div>

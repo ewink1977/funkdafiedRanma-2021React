@@ -1,0 +1,30 @@
+.e-header {
+    font-family: map-get($fonts, funkStyle);
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px lightslategray;
+    color: $darkRed;
+}
+
+.e-row {
+    display: flex;
+    justify-content: center;
+}
+
+.e-para {
+    font-family: map-get($fonts, primary);
+    font-size: 0.8rem;
+    margin: 0 15%;
+    padding: 3px 3px;
+
+    & a {
+        color: $lightRed;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+
+    & a:hover {
+        color: $darkRed;
+    }
+}
