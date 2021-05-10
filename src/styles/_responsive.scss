@@ -1,91 +1,107 @@
 @include media-small {
-    nav .nav-img, .nav-top, img.header-img, img.mob-con-sizing {
-        display: none;
-    }
+	nav .nav-img,
+	.nav-top,
+	img.header-img,
+	img.mob-con-sizing,
+	div.char-namelist {
+		display: none;
+	}
 
-    .display {
-        display: block;
-    }
+	.display {
+		display: block;
+	}
 
-    article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+	article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-    h1.mob-head {
-        font-size: 2em;
-    }
+	h1.mob-head {
+		font-size: 2em;
+	}
 
-    img.mob-sizing {
-        width: 100px;
-    }
+	img.mob-sizing {
+		width: 100px;
+	}
 
-    .mob-nav-bar {
-        width: 45%;
-    }
+	.mob-nav-bar {
+		width: 45%;
+	}
 }
 
 @include media-med {
-    nav, .nav-img, .nav-top, img.header-img, img.mob-con-sizing {
-        display: none;
-    }
+	nav,
+	.nav-img,
+	.nav-top,
+	img.header-img,
+	img.mob-con-sizing,
+	div.char-namelist {
+		display: none;
+	}
 
-    .display {
-        display: block;
-    }
+	.display {
+		display: block;
+	}
 
-    article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+	article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-    h1.mob-head {
-        font-size: 2.5em;
-    }
+	h1.mob-head {
+		font-size: 2.5em;
+	}
 
-    img.mob-sizing {
-        width: 150px;
-    }
+	img.mob-sizing {
+		width: 150px;
+	}
 
-    .mob-nav-bar {
-        width: 45%;
-    }
+	.mob-nav-bar {
+		width: 45%;
+	}
 }
 
 @include media-large {
-    div.mobilehead {
-        display: none;
-    }
+	div.mobilehead,
+	div.mob-char-list {
+		display: none;
+	}
 
-    .display {
-        display: flex;
-    }
+	.display {
+		display: flex;
+	}
 
-    nav, .nav-img, .nav-top {
-        display: inherit;
-    }
+	nav,
+	.nav-img,
+	.nav-top {
+		display: inherit;
+	}
 
-    img.header-img {
-        display: block;
-    }
+	img.header-img {
+		display: block;
+	}
 
-    img.mob-sizing {
-        width: auto;
-    }
+	img.mob-sizing {
+		width: auto;
+	}
 
-    img.mob-con-sizing {
-        display: inline-block;
-    }
+	img.mob-con-sizing {
+		display: inline-block;
+	}
 
-    article {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 100%;
-    }
+	article {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 100%;
+	}
+
+	div.char-namelist {
+		display: grid;
+	}
 }
