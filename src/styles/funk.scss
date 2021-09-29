@@ -5,6 +5,7 @@
 @import 'footer';
 @import 'responsive';
 @import 'engagement';
+@import '404';
 @import '~react-image-gallery/styles/scss/image-gallery.scss';
 
 a {
@@ -139,3 +140,5 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+// 404 Specific Styles

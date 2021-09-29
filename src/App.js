@@ -1,36 +1,37 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import './styles/funk.scss'
-import Navigation from './components/Navigation'
-import Header from './components/Header'
-import Homepage from './components/Homepage'
-import Footer from './components/Footer'
-import Privacy from './components/MiscComps/Privacy'
-import TenMinutes from './components/MiscComps/TenMinutes'
-import Ewink from './components/MiscComps/Ewink'
-import Ailurophobia from './components/MiscComps/Ailurophobia'
-import Information from './components/MiscComps/Information'
-import FunkdafiedImageGallery from './components/MiscComps/FunkdafiedImageGallery'
-import FanFiction from './components/MiscComps/FanFiction'
-import RanmaMeetsSailorMoon from './components/MiscComps/RanmaMeetsSailorMoon'
-import Music from './components/MiscComps/Music'
-import EngagementChart from './components/MiscComps/EngagementChart'
-import KimCounterpoint from './components/MiscComps/KimCounterpoint'
-import Characters from './components/Characters'
-import RanmaBoyType from './components/CharComps/RanmaBoyType'
-import RanmaGirlType from './components/CharComps/RanmaGirlType'
-import Akane from './components/CharComps/Akane'
-import Genma from './components/CharComps/Genma'
-import Soun from './components/CharComps/Soun'
-import Ryouga from './components/CharComps/Ryouga'
-import Shampoo from './components/CharComps/Shampoo'
-import Tatewaki from './components/CharComps/Tatewaki'
-import Nabiki from './components/CharComps/Nabiki'
-import Kasumi from './components/CharComps/Kasumi'
-import Happosai from './components/CharComps/Happosai'
-import Cologne from './components/CharComps/Cologne'
-import Kodachi from './components/CharComps/Kodachi'
-import Ukyou from './components/CharComps/Ukyou'
-import MiscCharacters from './components/CharComps/MiscCharacters'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './styles/funk.scss';
+import Navigation from './components/Navigation';
+import Header from './components/Header';
+import Homepage from './components/Homepage';
+import Footer from './components/Footer';
+import Privacy from './components/MiscComps/Privacy';
+import TenMinutes from './components/MiscComps/TenMinutes';
+import Ewink from './components/MiscComps/Ewink';
+import Ailurophobia from './components/MiscComps/Ailurophobia';
+import Information from './components/MiscComps/Information';
+import FunkdafiedImageGallery from './components/MiscComps/FunkdafiedImageGallery';
+import FanFiction from './components/MiscComps/FanFiction';
+import RanmaMeetsSailorMoon from './components/MiscComps/RanmaMeetsSailorMoon';
+import Music from './components/MiscComps/Music';
+import EngagementChart from './components/MiscComps/EngagementChart';
+import KimCounterpoint from './components/MiscComps/KimCounterpoint';
+import Characters from './components/Characters';
+import RanmaBoyType from './components/CharComps/RanmaBoyType';
+import RanmaGirlType from './components/CharComps/RanmaGirlType';
+import Akane from './components/CharComps/Akane';
+import Genma from './components/CharComps/Genma';
+import Soun from './components/CharComps/Soun';
+import Ryouga from './components/CharComps/Ryouga';
+import Shampoo from './components/CharComps/Shampoo';
+import Tatewaki from './components/CharComps/Tatewaki';
+import Nabiki from './components/CharComps/Nabiki';
+import Kasumi from './components/CharComps/Kasumi';
+import Happosai from './components/CharComps/Happosai';
+import Cologne from './components/CharComps/Cologne';
+import Kodachi from './components/CharComps/Kodachi';
+import Ukyou from './components/CharComps/Ukyou';
+import MiscCharacters from './components/CharComps/MiscCharacters';
+import NotFound from './components/NotFound';
 
 function App() {
 	return (
@@ -138,13 +139,16 @@ function App() {
 								path='/characters/misc/'
 								component={MiscCharacters}
 							/>
+							<Route path='/*'>
+								<NotFound />
+							</Route>
 						</Switch>
 					</div>
 				</div>
 				<Footer />
 			</div>
 		</Router>
-	)
+	);
 }
 
-export default App
+export default App;
